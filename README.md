@@ -1,46 +1,48 @@
 # Lead-Webscraper
 
-Ein Python-Webcrawler, der Leads in Ihrer Region findet. Derzeit speziell an Österreich angepasst (im Code).
+A Python web crawler that finds leads in your region. Currently specifically adapted to Austria (in code). The project is implemented using both Flask and FastAPI.
 
-## Überblick
+## Overview
 
-Der Lead-Webscraper ist ein Tool, das entwickelt wurde, um Unternehmenskontakte und potenzielle Kunden in Österreich zu finden. Momentan ist es in seiner Funktionalität auf den österreichischen Markt beschränkt, aber in Zukunft wird es Updates geben, um die Anwendung in anderen Ländern und Regionen zu ermöglichen.
+The Lead-Webscraper is a tool that has been developed to find business contacts and potential clients in Austria. At the moment, its functionality is limited to the Austrian market, but future updates will provide the ability to apply the tool in other countries and regions.
 
-## Funktionen
+## Features
 
-- **Gezielte Lead-Suche**: Der Webscraper nutzt gezielte Suchalgorithmen, um relevante Informationen über Unternehmen und potenzielle Kunden in Österreich zu extrahieren.
+- **Targeted Lead Search**: The web scraper uses targeted search algorithms to extract relevant information about companies and potential clients in Austria.
 
-- **Kontaktdaten extrahieren**: Das Tool durchsucht Webseiten, Online-Verzeichnisse und andere Quellen, um wichtige Kontaktdaten wie E-Mail-Adressen, Telefonnummern und Standortinformationen zu finden.
+- **Contact Information Extraction**: The tool scours websites, online directories, and other sources to find crucial contact information such as email addresses, phone numbers, and location information.
 
-- **Benutzerdefinierte Filter**: Der Lead-Webscraper ermöglicht es Benutzern, ihre Suchkriterien anzupassen, um Leads nach Branche, Standort oder anderen Parametern zu filtern.
+- **Customizable Filters**: The Lead-Webscraper allows users to customize their search criteria, filtering leads by industry, location, or other parameters.
 
-- **Export von Ergebnissen**: Gefundene Leads können in verschiedenen Formaten exportiert werden, um eine reibungslose Integration in CRM-Systeme oder andere Tools zu ermöglichen.
+- **Export Results**: Found leads can be exported in various formats to enable seamless integration into CRM systems or other tools.
 
-## Webserver mit Flask
+## Web Server with Flask and FastAPI
 
-Der Lead-Webscraper startet einen Webserver mit Flask, auf dem die gefundenen Daten eingesehen und unter dem Endpunkt `/data` abgerufen werden können. Hier können Benutzer auf bequeme Weise auf die erfassten Leads zugreifen.
+The Lead-Webscraper initiates a web server, implemented using both Flask and FastAPI. Here, the found data can be viewed and fetched under the endpoint `/data`. This allows users to access the captured leads in a convenient manner.
 
-## Verwendung
+## Usage
 
-Momentan ist die Anwendung auf den österreichischen Markt beschränkt, da bestimmte Parameter und Suchalgorithmen speziell auf diese Region zugeschnitten sind. Benutzer, die in Österreich Leads suchen, können das Tool sofort einsetzen.
+Currently, the application is restricted to the Austrian market as certain parameters and search algorithms are specifically tailored for this region. Users seeking leads in Austria can deploy the tool straight away.
 
-**Hinweis**: Für Benutzer außerhalb Österreichs ist eine angepasste Version des Webscrapers geplant, um die Funktionalität für andere Länder zu erweitern. Wir arbeiten daran, in naher Zukunft eine aktualisierte Version bereitzustellen.
+**Note**: For users outside Austria, a customized version of the web scraper is planned to expand functionality to other countries. We're working on providing an updated version in the near future.
 
-## Updates und Beitrag
+## Updates and Contribution
 
-Wir glauben an kontinuierliche Verbesserung und danken der Open-Source-Community für ihre Unterstützung. Wir heißen Beiträge und Vorschläge von Entwicklern und Nutzern herzlich willkommen.
+We believe in continuous improvement and thank the open-source community for their support. We warmly welcome contributions and suggestions from developers and users.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert. Sie können den Code verwenden, anpassen und verbreiten, solange Sie die Lizenzbedingungen einhalten.
+This project is licensed under the [MIT License](LICENSE). You may use, modify, and distribute the code as long as you adhere to the terms of the license.
 
-## Haftungsausschluss
+## Disclaimer
 
-Der Lead-Webscraper durchsucht öffentlich zugängliche Informationen im Internet, um Leads zu finden. Die Nutzung dieses Tools liegt in der Verantwortung des Benutzers. Wir übernehmen keine Haftung für die Verwendung der gefundenen Informationen oder für etwaige Verstöße gegen die Datenschutzbestimmungen oder Nutzungsbedingungen der durchsuchten Webseiten.
+The Lead-Webscraper searches for publicly available information on the internet to find leads. The use of this tool is at the user's own responsibility. We do not assume liability for the use of the found information or for any violations of the data protection regulations or terms of use of the websites searched.
 
-## Kontakt
+## Contact
 
-Bei Fragen, Anregungen oder Problemen können Sie uns per E-Mail kontaktieren: [artaeon@developerr.me](mailto:artaeon@developerr.me).
+For any questions, suggestions, or problems, you can contact us by email at: [artaeon@developerr.me](mailto:artaeon@developerr.me).
 
 ---
-Bitte beachten Sie, dass diese Readme-Datei für die aktuelle Version des Lead-Webscrapers gilt. Zukünftige Updates werden weitere Informationen enthalten, sobald neue Funktionen und Anpassungen eingeführt werden. Wir freuen uns darauf, dieses Tool stetig zu verbessern und es für Benutzer in anderen Regionen zugänglich zu machen. Vielen Dank für Ihr Interesse und Ihre Unterstützung!
+Please note that this README file is for the current version of the Lead-Webscraper. Future updates will contain more information as new features and customizations are introduced. We look forward to continually improving this tool and making it accessible to users in other regions. Thank you for your interest and support!
+
+**Installation Guide**: The installation guide is provided in the `dev` branch of this repository. Please check out the branch for detailed instructions. The project is available in two versions: one using Flask and the other using FastAPI.
