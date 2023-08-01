@@ -1,4 +1,4 @@
-# Python Web Scraper
+# Installation Guide
 
 This repository contains two implementations of a simple Python web scraper. One implementation uses Flask, and the other uses FastAPI. Both implementations collect data from `https://firmen.wko.at/` and provide it through a web API.
 
